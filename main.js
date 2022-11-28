@@ -1,8 +1,9 @@
 const totalBars = document.querySelectorAll('.menu-bar');
-const changeMenuIcon = function() {
+/* eslint-disable no-unused-vars */
+function changeMenuIcon() {
   for (let activeBar = 0;
     activeBar < totalBars.length;
-    activeBar++) {
+    activeBar += 1) {
     totalBars[activeBar].classList.toggle('active');
   }
 }
