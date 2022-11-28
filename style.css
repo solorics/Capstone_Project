@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Mobile first */
+:root {
+    --hamburger-color: #1f2833;
+    --bg-color: #e5e5e5;
+    --font-family: "lato", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+}
+
+.menu-bar {
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.menu-bar div {
+    width: 35px;
+    height: 4px;
+    background-color: var(--hamburger-color);
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.13, 0.24, 0.35, 1.64);
+    border-radius: 8px;
+}
+
+.menu-bar .bar1,
+.menu-bar .bar2 {
+    margin-bottom: 4px;
+}
+
+.menu-bar.active .bar1 {
+    transform: translate(0,14px) rotate(45deg);
+}
+
+.menu-bar.active .bar2 {
+    transform: translateX(-55px);
+    background-color: transparent;
+}
+
+.menu-bar.active .bar3 {
+    transform: translate(0,14px) rotate(-45deg);
+}
