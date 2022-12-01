@@ -203,6 +203,10 @@ hr {
   margin: 7px;
   line-height: 1;
   gap: 3em;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
 .programs .program-content {
@@ -210,22 +214,42 @@ hr {
   justify-content: space-around;
 }
 
-/* .program-content {
-  display: flex;
-  gap: 3em;
-} */
-
 .program-content h4 {
   color: var(--main-content);
   font-size: 20px;
   display: flex;
   align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .program-content p {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   line-height: 1.5;
+  float: right;
+}
+
+.images {
+  width: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  background: var(--main-content);
+  color: #f8f8ff;
+  text-align: center;
+  align-self: center;
+  height: 80px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2em;
+  cursor: pointer;
 }
 
 /* nav a{
