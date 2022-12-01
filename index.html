@@ -7,19 +7,35 @@
     <title>Musical Conference</title>
     <link rel="shortcut icon" type="image" href="./images/titleLogo.webp">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/735fd82f63.js" crossorigin="anonymous"></script>
                 
 </head>
 <body>
     <header>
+        <span><img id="open-nav" src="./images/openNav.png" alt="open bar"></span>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="links-items"><a href="#about">About</a></li>
+                <li class="links-items"><a href="#program">Program</a></li>
+                <li class="links-items"><a href="#join">Join</a></li>
+                <li class="links-items"><a href="#sponsor">Sponsor</a></li>
+                <li class="links-items"><a href="#neaws">News</a></li>
+                <li class="links-items"><a href="#cc-campaign">CC Campaign</a></li>
+            </ul>
+        </nav>
         <!-- Mobile menu hamburger -->
         <div class="mobile-menu">
-            <span><img id="openNav" src="./images/openNav.png" alt=""></span>
-            <span><img id="closeNav" src="" alt=""></span>
+            <div id="myNav" class="overlay">
+                <span><img id="close-nav" src="./images/closeNav.png" alt="close bar"></span>
+                <div class="overlayContent">
+                    <a href="about.html" class="mobile-link">About</a>
+                    <a href="#program" class="mobile-link">Program</a>
+                    <a href="#join" class="mobile-link">Join</a>
+                    <a href="#sponsor" class="mobile-link">Sponsor</a>
+                    <a href="#news" class="mobile-link">News</a>
+                    <a href="#cc-campaign" class="mobile-link">CC Campaign</a>
+                </div>
+            </div>
         </div>
-        <nav></nav>
     </header>
     <main>
         <div class="header-container">
@@ -42,16 +58,36 @@
             <hr>
             <div class="programs">
                 <div class="programs-container">
-                <div class="program"><i class="fa-solid fa-podium-star"></i>
+                <div class="program">
                     <div class="program-content">
                         <h4>Lecture</h4>
                         <p>LIsten to the Speakers from various countries about the messages of sharing and openings</p>
                     </div>
                 </div>
-                <div class="program">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio aliquid perferendis repellendus magnam dolores excepturi natus </div>
-                <div class="program">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio aliquid perferendis repellendus magnam dolores excepturi natus </div>
-                <div class="program">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio aliquid perferendis repellendus magnam dolores excepturi natus </div>
-                <div class="program">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio aliquid perferendis repellendus magnam dolores excepturi natus </div>
+                <div class="program">
+                    <div class="program-content">
+                        <h4>Forum</h4>
+                        <p>LIsten to the Speakers from various countries about the messages of sharing and openings</p>
+                    </div>
+                </div>
+                <div class="program">
+                    <div class="program-content">
+                        <h4>CC Ignite</h4>
+                        <p>LIsten to the Speakers from various countries about the messages of sharing and openings</p>
+                    </div>
+                </div>
+                <div class="program">
+                    <div class="program-content">
+                        <h4>Workshop</h4>
+                        <p>LIsten to the Speakers from various countries about the messages of sharing and openings</p>
+                    </div>
+                </div>
+                <div class="program">
+                    <div class="program-content">
+                        <h4>CC Exhibition</h4>
+                        <p>LIsten to the Speakers from various countries about the messages of sharing and openings</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </article>
