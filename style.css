@@ -22,11 +22,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  nav
 }
 
 body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
+}
+
+#myNav {
+  display: none;
 }
 
 .mobile-menu {
@@ -101,7 +106,7 @@ body {
 }
 
 .header-container {
-  max-width: 780px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 20px;
   background-image: url('./images/headerMobile.png');
@@ -249,8 +254,107 @@ hr {
   font-size: 20px;
   font-weight: bold;
   margin-top: 2em;
+  margin-bottom: 2em;
   cursor: pointer;
 }
+
+.container2 {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: ghostwhite;
+}
+
+.container2 h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  color: #1f2833;
+}
+
+.speakers {
+  display: flex;
+  margin: 2em;
+}
+
+.speakers_image {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  height: 113px;
+  align-self: flex-end;
+  transition: transform 2s;
+  clip-path: polygon(0 0, 100% 0, 200% 100%, 200% 200%, 100% 200%, 0 100%);
+  box-shadow: 5px 5px 20px 24px rgb(113 108 108 / 53%);
+  background: rgb(113 108 108 / 53%);
+}
+
+.speakers_image:hover {
+transform: rotate3d(0, 1, 0.5, 3.142rad);
+transition: 2s;
+}
+
+.speakerDescription {
+  width: 70%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.speakerDescription h3 {
+  color: var(--hamburger-color);
+  font-size: 21px;
+}
+
+.short_desc {
+  display: flex;
+  align-items: center;
+}
+
+.short_desc h4 {
+  color: var(--color1);
+  font-style: italic;
+  line-height: 30px;
+}
+
+.long_desc {
+  width: 105%;
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+#more_speakers {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  background: transparent;
+  color: #1f2833;
+  text-align: center;
+  align-self: center;
+  height: 60px;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  cursor: pointer;
+  border: 1px solid #2d333a;
+}
+
+.partnership {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2833;
+  margin-top: 4em;
+}
+
+.partnership h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  color: white;
+}
+
 
 /* nav a{
   text-decoration: none;
