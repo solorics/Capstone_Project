@@ -7,19 +7,28 @@
     <title>Musical Conference</title>
     <link rel="shortcut icon" type="image" href="./images/titleLogo.webp">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
                 
 </head>
 <body>
     <header>
         <span><img id="open-nav" src="./images/openNav.png" alt="open bar"></span>
+        <div class="upperNav">
+            <a href=""><img src="./images/facebook.png" alt="facebook logo" class="facebook"></a>
+            <a href=""><img class="twitter" src="./images/twitter.png" alt="twitter logo"></a>
+            <a href="">English</a>
+            <a href="">My Page</a>
+            <a href="">Logout</a>
+        </div>
         <nav class="navbar">
+            <a href="#homepage" class="logo"><img src="./images/logo.png" alt="logo"></a>
             <ul class="nav-links">
-                <li class="links-items"><a href="#about">About</a></li>
+                <li class="links-items"><a href="about.html">About</a></li>
                 <li class="links-items"><a href="#program">Program</a></li>
                 <li class="links-items"><a href="#join">Join</a></li>
                 <li class="links-items"><a href="#sponsor">Sponsor</a></li>
                 <li class="links-items"><a href="#neaws">News</a></li>
-                <li class="links-items"><a href="#cc-campaign">CC Campaign</a></li>
+                <li class="links-items apart"><a href="#cc-campaign">CC Campaign</a></li>
             </ul>
         </nav>
         <!-- Mobile menu hamburger -->
@@ -27,7 +36,7 @@
             <div id="myNav" class="overlay">
                 <img id="close-nav" src="./images/closeNav.png" alt="close bar">
                 <div class="overlayContent">
-                    <a href="about.html" class="mobile-link">About</a>
+                    <a href="#about.html" class="mobile-link">About</a>
                     <a href="#program" class="mobile-link">Program</a>
                     <a href="#join" class="mobile-link">Join</a>
                     <a href="#sponsor" class="mobile-link">Sponsor</a>
@@ -39,7 +48,7 @@
     </header>
     <main>
         <div class="header-container">
-            <div class="intro">
+            <div class="intro" id="homepage">
                 <h3>"Hello! Music World"</h3>
                 <h1>Musical Conference <br>Global Summit <br>2022</h1></span>
             </div>
@@ -53,7 +62,7 @@
             </div>
    
         </div>
-        <article class="main-program">
+        <article class="main-program" id="program">
             <a id="main-header" href="#">Main Program</a>
             <hr>
             <div class="programs">
@@ -93,8 +102,8 @@
                         <p>Appreciate various talents organized by the music World</p>
                     </div>
                 </div>
-                <div class="button">Join Musical Global Submit</div>
                 </div>
+                <div class="button">Join Musical Global Submit</div>
             </div>
         </article>
         <section>
@@ -106,28 +115,16 @@
             <div class="partnership">
                 <h2>Partners</h2>
                 <hr>
-                <div class="sponsors">
+                <div class="sponsors" id="sponsor">
                     <img src="./images/partner1.png" alt="sponsors">
                     <img src="./images/partner2.jpeg" alt="sponsors">
-                    <img src="" alt=""
-                    ><img src="" alt="">
                 </div>
             </div>
                <!-- <div><button type="button" id="more_speakers" onclick="btnClicked()">MORE</button></div> -->
             </div>
-            
         </section>
     </main>
     <footer></footer>
-    
-
-
-
-
-
-
-
-
     <script src="main.js"></script>
 </body>
 </html>
