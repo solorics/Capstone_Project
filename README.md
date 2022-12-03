@@ -1,4 +1,4 @@
-<!-- ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone
 > online website for developers conference
@@ -7,10 +7,10 @@ Built from this [Behance](https://www.behance.net/gallery/29845175/CC-Global-Sum
 
 ## Live Demo
 
-[Live Demo Link](https://yorsyboy.github.io/Capstone/)
+[Live Demo Link](https://solorics.github.io/Capstone_Project/)
 
-## Video
-In the following [link](https://www.loom.com/share/eb9df83f56b8498487a25c83e2c89b27) I am explaining the capstone project.
+<!-- ## Video
+In the following [link](https://www.loom.com/share/eb9df83f56b8498487a25c83e2c89b27) I am explaining the capstone project. -->
 
 ## Built With
 - HTML
@@ -29,7 +29,7 @@ The basic requirements for building the executable are:
 
 #### Cloning the project
 ```
-git clone: https://github.com/Yorsyboy/Capstone.git
+git clone: https://github.com/solorics/Capstone_Project.git
 ```
 ## Getting packages and debuging with Webhint
 ```
@@ -64,9 +64,9 @@ npx eslint .
 
 ## Authors
 
-👤 **Toyosi Toyosi**
+👤 **Solorics**
 
-- GitHub: [@Yorsyboy](https://github.com/Yorsyboy/)
+- GitHub: [@Solorics](https://github.com/solorics)
 
 ## 🤝 Contributing
 
@@ -82,4 +82,4 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc -->
+- etc
