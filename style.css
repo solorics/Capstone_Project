@@ -663,19 +663,18 @@ hr {
   .programs-container {
     display: flex;
     flex-direction: row;
-    width: 10%;
-    margin-left: 22%;
-    align-items: center;
+    width: 20%;
+    margin-left: 14%;
+    text-align: center;
     align-self: flex-start;
   }
 
-  .program {
-    display: grid;
-    background: #000;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    row-gap: 2rem;
-    padding: 0 10%;
+    .program {
+      display: flex;
+      padding: 17px 10%;
+      align-items: center;
+      line-height: 2.5;
+    }
   }
 
   .program-content {
